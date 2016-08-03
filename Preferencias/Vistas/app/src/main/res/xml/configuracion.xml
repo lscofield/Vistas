@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/p_titulo"
+        android:background="?attr/colorSwitchThumbNormal">
+
+        <ListPreference
+            android:key="vistas"
+            android:title="@string/_titulo"
+            android:summary="@string/_resumen"
+            android:dialogTitle="@string/_resumen"
+            android:defaultValue="ie"
+            android:entries="@array/_entradas"
+            android:entryValues="@array/_valores" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
